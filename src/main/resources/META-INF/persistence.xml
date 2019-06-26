@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <!--配置节点  配置持久化单元名称
+    RESOURCE_LOCAL:本地事物管理
+    JTA：分布式事物管理
+    -->
+    <persistence-unit name="myJpa" transaction-type="RESOURCE_LOCAL">
+        <!--jpa的实现方式-->
+
+    </persistence-unit>
+</persistence>
